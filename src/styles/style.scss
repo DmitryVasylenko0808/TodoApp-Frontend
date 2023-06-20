@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+.app.logging {
+    opacity: 0.7;
+}
+
+._container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    flex: 0 0 300px;
+
+    background-image: url(../../images/bg-desktop-dark.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header.light {
+    background-image: url(../../images/bg-desktop-light.jpg);
+}
+/* MAIN */
+
+.main {
+    flex: 1 1 auto;
+
+    background-color: #161722;
+}
+.main.light {
+    background-color: #e4e5f1;
+}
+
+/** TODO BLOCK **/
+
+.todo-block {
+    color: hsl(234, 39%, 85%);
+
+    position: relative;
+    top: -180px;
+}
+.todo-block.light {
+    color: #000000;
+}

@@ -1,0 +1,33 @@
+/**** TODO FILTER ****/
+.todo-filter {
+    padding: 25px 25px 15px 25px;
+    background-color: #25273c;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16px;
+    color: #777a92;
+}
+.todo-filter.light {
+    background-color: #fafafa;
+}
+.todo-filter__btncontainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.todo-filter__btn {
+    font-weight: 700;
+}
+.todo-filter__btn.active {
+    color: #3a7bfd;
+}
+.todo-filter__btn:hover, .todo-filter__btnclear:hover {
+    color: #ffffff;
+}
+
+.todo-filter.light .todo-filter__btn:hover, .todo-filter.light .todo-filter__btnclear:hover {
+    color: #000000;
+}

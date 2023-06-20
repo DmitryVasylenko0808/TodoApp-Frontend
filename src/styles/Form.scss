@@ -1,0 +1,70 @@
+/*** TODO FORM ***/
+
+.todo-form {
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: #25273c;
+
+    display: flex;
+    align-items: center;
+}
+.todo-form.light {
+    background-color: #fafafa;
+}
+
+.todo-form__input {
+    flex: 1 1 auto;
+
+    margin-left: 50px;
+    
+    font-size: 18px;
+}
+
+.auth-form {
+    width: 500px;
+    padding: 35px 40px;
+    background-color: #25273c;
+
+    position: absolute;
+    top: 15%;
+    left: 35%;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #cacde8;
+}
+.auth-form *:last-child {
+    margin-bottom: 0;
+}
+.auth-form.light {
+    background-color: #fafafa;
+
+    color: #000000;
+}
+
+.auth-form__container {
+    display: flex;
+    justify-content: flex-end;
+}
+.auth-form__btncancel {
+    background-image: url(../../images/icon-cross.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.auth-form__title {
+    margin-bottom: 20px;
+
+    font-size: 700px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.auth-form__label {
+    margin-bottom: 15px;
+}
+
+.auth-form__input {
+    margin-bottom: 30px;
+}

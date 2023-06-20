@@ -1,0 +1,39 @@
+/*** TODO MENU ***/
+
+.todo-menu {
+    margin-bottom: 35px;
+
+    display: flex;
+    align-items: center;
+}
+
+.todo-menu__heading {
+    flex: 1 1 auto;
+
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 15px;
+
+    color: #ffffff;
+}
+
+.todo-menu__authbtn {
+    margin-left: 30px;
+
+    font-size: 18px;
+
+    color: #ffffff;
+}
+
+.todo-menu__themebtn {
+    margin-left: 20px;
+}
+
+.todo-menu__themeimg {
+    background-image: url(../../images/icon-sun.svg);
+    width: 26px;
+    height: 26px;
+}
+.todo-menu__themeimg.light {
+    background-image: url(../../images/icon-moon.svg);
+}

@@ -1,0 +1,40 @@
+/**** TODO ITEM ****/
+.todo-item {
+    padding: 25px;
+    border-bottom: 1px solid #393a4c;
+    background-color: #25273c;
+
+    display: flex;
+    align-items: center;
+}
+.todo-item.light {
+    border-bottom: 1px solid hsl(233, 11%, 84%);
+    background-color: #fafafa;
+}
+
+.todo-item__title {
+    flex: 1 1 auto;
+
+    margin-left: 50px;
+
+    cursor: pointer;
+}
+
+.todo-item.done {
+    text-decoration: line-through;
+    color: #777a92;
+}
+.todo-item.done.light {
+    text-decoration: line-through;
+    color: hsl(233, 11%, 84%);
+}
+
+.todo-item__delbtn {
+    background-image: url(../../images/icon-cross.svg);
+    width: 18px;
+    height: 18px;
+    display: none;
+}
+.todo-item:hover .todo-item__delbtn {
+    display: block;
+}
